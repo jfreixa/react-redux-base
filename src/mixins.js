@@ -1,14 +1,5 @@
 // src/mixins.js
 var globalMixins = {
-  /* noSelect is a static mixin  */
-  noSelect: {
-    '-webkit-touch-callout': 'none',
-    '-webkit-user-select': 'none',
-    '-khtml-user-select': 'none',
-    '-moz-user-select': 'none',
-    '-ms-user-select': 'none',
-    'user-select': 'none'
-  },
   /* OpenSans is a dynamic mixin  */
   OpenSans: function (obj, value) {
     return {
